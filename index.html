@@ -1,47 +1,82 @@
+Aqui está o código HTML atualizado com todas as alterações solicitadas na tabela, incluindo a nova cor de fundo, a atualização do título, o novo subtítulo, o botão e o espaço para o seu nome.
+
+HTML
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<title>Avaliação Git e GitHub</title>
-<style>
-body {
-font-family: Arial, sans-serif;
-background-color: #f4f4f4;
-text-align: center;
-padding: 50px;
-}
-h1 {
-color: #24292e;
-}
-p {
-font-size: 18px;
-
-Shell
-
-color: #333;
-}
-.container {
-background: white;
-padding: 30px;
-border-radius: 10px;
-width: 60%;
-margin: auto;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação Git e GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* Alteração: Cor de fundo da página modificada */
+            background-color: #dbeafe; 
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #24292e;
+            margin-bottom: 5px;
+        }
+        /* Nova classe para o nome do aluno */
+        .aluno {
+            font-size: 16px;
+            color: #555;
+            font-style: italic;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        /* Nova classe para o subtítulo */
+        .subtitulo {
+            font-size: 20px;
+            color: #4a5568;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        /* Estilização do novo botão */
+        .btn {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #444d56;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-<h1>Minha Avaliação de Git e GitHub</h1>
-<p>
-Este projeto foi criado para praticar versionamento
-
-utilizando
-
-Git, GitHub e Visual Studio Code.
-</p>
-</div>
+    <div class="container">
+        <h1>Projeto Atualizado de Git e GitHub</h1>
+        
+        <p class="aluno">[Seu Nome Aqui]</p>
+        
+        <p class="subtitulo">Versionamento de código com Git</p>
+        
+        <p>
+            Este projeto foi criado para praticar versionamento utilizando Git, GitHub e Visual Studio Code.
+        </p>
+        
+        <button class="btn">Clique Aqui</button>
+    </div>
 </body>
 </html>
